@@ -11,6 +11,14 @@ categories: jekyll update
     echo $a+$b;
 ```
 
+```javascript
+    var a = '3';
+    var b = '4';
+    console.log($a+$b);
+```
+
+끝.
+
 ​```python
 def print_hi(name):
 print("hello", name)
