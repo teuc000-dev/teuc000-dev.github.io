@@ -5,12 +5,11 @@ categories: jekyll update
 
 # Start
 >안녕하세요.
+```php
+    $a = '3';
+    $b = '4';
+    echo $a+$b;
 ```
-  $a = '3';
-  var ddd = '4';
-```
-
-
 
 ​```python
 def print_hi(name):
