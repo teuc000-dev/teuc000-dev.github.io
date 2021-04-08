@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Jekyll!"
+title: "LonD Blog Start!"
 categories: daily
 ---
 
