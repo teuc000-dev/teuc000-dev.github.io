@@ -81,13 +81,13 @@ $(document).ready(function() {
     });
   }
 
-  // add lightbox class to all image links
+  // add lightbox class to all images links
   $(
     "a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif'],a[href$='.webp']"
-  ).addClass("image-popup");
+  ).addClass("images-popup");
 
   // Magnific-Popup options
-  $(".image-popup").magnificPopup({
+  $(".images-popup").magnificPopup({
     // disableOn: function() {
     //   if( $(window).width() < 500 ) {
     //     return false;
@@ -95,11 +95,11 @@ $(document).ready(function() {
     //   return true;
     // },
     type: "image",
-    tLoading: "Loading image #%curr%...",
+    tLoading: "Loading images #%curr%...",
     gallery: {
       enabled: true,
       navigateByImgClick: true,
-      preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+      preload: [0, 1] // Will preload 0 - before current, and 1 after the current images
     },
     image: {
       tError: '<a href="%url%">Image #%curr%</a> could not be loaded.'
