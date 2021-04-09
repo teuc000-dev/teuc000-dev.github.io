@@ -1,6 +1,8 @@
 ---
 title: "LonD Blog Start!"
 categories: daily
+sidebar:
+  nav: "docs"
 ---
 
 # Start
