@@ -278,7 +278,7 @@ defaults:
       author_profile: true
       show_date: true
       read_time: false
-      comments: # true
+      comments: true # true
       share: false
       related: true
   # _pages
@@ -290,5 +290,5 @@ defaults:
       author_profile: true
       read_time: false
       comments: false
-      share: true
+      share: false
       related: false
