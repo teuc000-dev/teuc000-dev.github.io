@@ -7,18 +7,6 @@ sidebar:
 
 # Start
 
->안녕하세요.
+이직 전 새로운 마음으로 블로그 시작.
 
-```php
-    $a = '3';
-    $b = '4';
-    echo $a+$b;
-```
-
-```javascript
-    var a = '3';
-    var b = '4';
-    console.log($a+$b);
-```
-
-
+ `PHP(laravel)`, `Linux`, `MySql(MariaDB)`, `Javascript(ES6)` 
