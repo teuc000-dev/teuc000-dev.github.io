@@ -5,5 +5,5 @@ layout: categories
 #entries_layout: grid
 author_profile: false
 sidebar:
-nav: "docs"
+    nav: "docs"
 ---
