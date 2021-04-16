@@ -1,8 +1,11 @@
 ---
-title: "끄적끄적"
+title: "About"
 permalink: /about/
 layout: single
 ---
 
-`개발`할때 `공부`할때
-기억하기보다 기록을하자
+### Blog
+안녕하세요.   
+LonD의 개발 블로그입니다.
+
+ 
