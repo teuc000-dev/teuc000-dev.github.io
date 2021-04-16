@@ -1,5 +1,5 @@
 ---
-title: "Posts by Categories"
-permalink: /categories/
-layout: categories
+permalink: /posts/
+layout: home
+entries_layout: grid
 ---

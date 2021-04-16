@@ -1,5 +1,5 @@
 {% if page.author_profile or layout.author_profile or page.sidebar %}
-<div class="sidebar sticky scrollbar__hide" style="-ms-overflow-style: none;">
+<div class="sidebar sticky scrollbar__hide" style="-ms-overflow-style: none;padding: 0px 25px 0px 25px;">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
   {% if page.sidebar %}
   {% for s in page.sidebar %}
@@ -30,7 +30,8 @@
   {% endfor %}
 
   <hr>
-  <h3><a href="/categories/"><span style="font-weight: bold;">Categories</span></a></h3>
+<!--  <h3><a href="/categories/"><span style="font-weight: bold;">Categories</span></a></h3>-->
+  <h3><span style="font-weight: bold;">Categories</span></h3>
   <ul class="taxonomy__index__sidebar">
     {% for i in (1..categories_max) reversed %}
     {% for category in site.categories %}

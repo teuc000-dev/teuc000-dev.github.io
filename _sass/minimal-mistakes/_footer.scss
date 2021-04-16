@@ -16,6 +16,8 @@
   animation-delay: 0.45s;
   background-color: $footer-background-color;
 
+  z-index: -1;
+
   footer {
     @include clearfix;
     margin-left: auto;

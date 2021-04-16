@@ -18,8 +18,21 @@
   }
 }
 
+
+.grid__item .archive__item{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding-right: 20px;
+}
+
 .archive__item {
-  position: relative;
+  /* 포스트 리스트 수정 */
+  //background-color: #afafaf;
+  //padding: 15px;
+  //border-radius: 15px;
+  //word-break:break-all;
+  //min-height: 150px;
 
   a {
     position: relative;
@@ -125,6 +138,7 @@
    ========================================================================== */
 
 .list__item {
+  padding-left: 15px;
   .page__meta {
     margin: 0 0 4px;
     font-size: 0.6em;
@@ -150,6 +164,12 @@
 }
 
 .grid__item {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  word-break:break-all;
+  min-height: 150px;
+
   margin-bottom: 2em;
 
   @include breakpoint($small) {
@@ -199,6 +219,11 @@
   .page__meta {
     margin: 0 0 4px;
     font-size: 0.6em;
+
+    position: absolute;
+    right: 3em;
+    bottom: 2.5em;
+
   }
 
   .page__meta-sep {

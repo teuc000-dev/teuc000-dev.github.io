@@ -22,6 +22,7 @@
   gtag('js', new Date());
 
   gtag('config', 'G-KW9N9WQPT9');
+
 </script>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
@@ -50,3 +51,53 @@
 
   </body>
 </html>
+
+
+<script>
+  $(function() {
+    // 상단으로 이동 버튼
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 500) {
+        $('#MOVE_TOP_BTN').fadeIn();
+      } else {
+        $('#MOVE_TOP_BTN').fadeOut();
+      }
+    });
+    $("#MOVE_TOP_BTN").click(function() {
+      $('html, body').animate({
+        scrollTop : 0
+      }, 400);
+      return false;
+    });
+
+    // 포스트 클릭 이벤트
+    var drag_x1 = false;
+    var drag_y1 = false;
+    $(".grid__item, .list__item").on({
+      mouseover:function(e){
+        $(this).css('background-color','#e9dcbe');
+      },
+      mouseout:function(e){
+        if($(this).attr('class') == 'list__item'){
+          $(this).css('background-color','#f3f3f3');
+        }else{
+          $(this).css('background-color','#fff');
+        }
+      },
+      mousedown:function(e){
+          drag_x1 = e.offsetX;
+          drag_y1 = e.offsetY;
+      },
+      mouseup: function(e) {
+        if((e.offsetX - drag_x1 > 10 || e.offsetX - drag_x1 < -10) || (e.offsetY - drag_y1 > 10 || e.offsetY - drag_y1 < -10)) {
+          // 드래그
+        }else{
+          // 클릭
+          var href = $(this).attr('data-href');
+          location.href = href;
+        }
+      }
+    });
+
+  });
+</script>
