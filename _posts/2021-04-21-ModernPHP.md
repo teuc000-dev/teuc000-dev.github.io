@@ -1,7 +1,6 @@
 ---
 title: "Modern PHP"
-categories: daily
-
+categories: PHP
 ---
 
 > **Modern**
@@ -25,7 +24,7 @@ categories: daily
 ### 1. 최신버전의 PHP
  현재 날짜(2021-04-16) 기준으로 가장 최신 버전의 PHP는 8.0.3(2021-03-04)이다.   
  PHP7버전에서도 그랬듯이 8버전또한 많은 부분이 업데이트 되었다.   
- [PHP공식사이트][phplink]{: target="_blank"}{:: .link} 에서 확인할 수 있다. 자세한 내용은 나중에 따로 다뤄볼까 한다.
+ [PHP공식사이트][phplink]{: target="_blank"}{:: .link} 에서 확인할 수 있다.
 
 ### 2. PSR
  개발자 마다 코딩 스타일이 다르다. 수많은 라이브러리와 프레임워크, 컴포넌트들이 있다.    
