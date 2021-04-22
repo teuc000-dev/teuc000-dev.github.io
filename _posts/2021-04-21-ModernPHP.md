@@ -31,20 +31,23 @@ categories: PHP
  표준화가 없다 보니 개발자들은 자신만의 스타일로 코딩을 하고 각각 프레임워크나 라이브러리들의 사용법이나 설치 방법이 달랐고
  이를 해결하기 위해 Laravel, Symfony, CakePHP, Composer 등을 만든 PHP개발자 들이 
  모여 만든 [PHP-FIG(PHP Framework Interoperability Group)][PHP-FIG]{: target="_blank"}{:: .link}에서 
- 이에대한 `PHP 표준 권고(PHP Standards Recommendations)`를 제정하였고 수많은 프레임워크에서 사용하였다.
+ 이에대한 `PHP 표준 권고안(PHP Standards Recommendations)`를 제정하였고 수많은 프레임워크에서 사용하였다.
+ 
 
  PSR은 
- 1. PHP 커뮤니티 그룹(PHP-FIG) 에서 제정한 PHP 표준안이다.
- 2. 반드시 적용하도록 강요하지 않는다.
- 3. 투표로 표준안이 제정된다.
+ 1. PHP 커뮤니티 그룹(PHP-FIG) 에서 제정한 PHP 표준 권고안이다.
+ 2. 권고안이므로 강제성은 없다.
+ 3. 투표로 표준 권고안이 제정된다.
 
  통과된 PSR은 전체적으로 읽어보는게 좋다.   
- 그 중 많이 접할 수 있는 표준안들은 `PSR-1`, `PSR-4`, `PSR-7`, `PSR-12` 등이 있다.
+ 그 중 많이 접할 수 있는 표준 권고안들은 `PSR-1`, `PSR-4`, `PSR-7`, `PSR-12` 등이 있다.
  
  `PSR-1` - Basic Coding Standard   
  `PSR-4` - Autoloading Standard   
  `PSR-7` - HTTP Message Interface   
  `PSR-12` - Extended Coding Style Guide   
+
+ 강제성은 없으므로 필수는 아니지만, Morder PHP 를 지양한다면 필수라고 생각하고 적용해야 할 것 같다.
 
 ### 3. Composer
 
@@ -59,9 +62,9 @@ categories: PHP
 
 - 라이브러리를 위한 오토로드
 
-
-
->#### 참고
+<br/><br/><br/><br/><br/><br/>
+---
+>#### 참고   
 >[Modern PHP란? - 권윤학님 블로그][Refernce_1]{: target="_blank"}{:: .link}    
 >[Modern PHP & PSR - 이상학님 블로그][Refernce_2]{: target="_blank"}{:: .link}        
 >[PHP The Right Way - modernpug.github.io][Refernce_3]{: target="_blank"}{:: .link}     
@@ -69,8 +72,8 @@ categories: PHP
 
 
 
-[phplink]: https://www.php.net/releases/8.0/en.php "Go google"
-[PHP-FIG]: https://www.php-fig.org/psr "Go google"
+[phplink]: https://www.php.net/releases/8.0/en.php "Go PHP8.0"
+[PHP-FIG]: https://www.php-fig.org/psr "Go PHP-FIG"
 
 [Refernce_1]: https://web-front-end.tistory.com/75 "Modern PHP란?"
 [Refernce_2]: https://sanghaklee.tistory.com/44 "Modern PHP & PSR"
